@@ -1,0 +1,52 @@
+# Environnements Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Django files
+*.log
+*.pot
+*.pyc
+*.sqlite3
+*.db
+*.mo
+
+# Dossiers générés
+staticfiles/
+media/
+node_modules/
+
+# Environnement virtuel (à adapter selon le nom du dossier)
+venv/
+env/
+ENV/
+.venv/
+
+# Fichiers de config privés
+.env
+*.env
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Test coverage
+htmlcov/
+.coverage
+coverage.xml
+.cache
+
+# Git
+*.orig 
